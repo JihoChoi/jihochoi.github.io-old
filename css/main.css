@@ -233,6 +233,10 @@
   color:#2AA7DC;
 }
 
+.social-icons ul li a:hover .fa-github {
+  color:#2AA7DC;
+}
+
 .social-icons ul li a:hover .fa-google-plus {
   color:#A22523;
 }
