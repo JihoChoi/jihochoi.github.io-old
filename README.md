@@ -1,35 +1,63 @@
 # Jiho Choi's WEB
 
+### Description
+Jiho Choi's personal portfolio web pages.
 
 
-http://jihochoi.github.io
+### Links
+
+> jihochoi.info
+> web.ics.purdue.edu
+> http://jihochoi.github.io
+
+
+###
+:+1: :sparkles: :camel: :tada:
+:rocket: :metal: :octocat:
+
+```javascript
+function test() {
+ console.log("TEST");
+}
+```
 
 
 
 ### TODOs
 
+#### Front-end
 
+
+
+
+- [ ] Navigation Bar
 - [ ] HOME
-... - [ ] HOME
-
+           - [ ] HOME
 - [ ] ABOUT
+           - [ ] HOME
+           - [ ] HOME
 - [ ] ACADEMIC
+           - [ ] Purdue CS Courses
+           - [ ] 
 - [ ] PROJECTS
 - [ ] RESEARCH
-- [ ] CONTACT
+- [ ] CONTACTS
 
 -- [ ] Mercury
 
+#### Back-end
+
+- [ ] Login as Developer / Editor (developer mode) Google or Github
+- [ ] Nav Bar PHP
 
 
 
 
 
-           HOME	ABOUT	ACADEMIC	PROJECTS	RESEARCH	CONTACT
 
 
-            Login as Developer (developer mode)
 
+            
             Home
             ABOUT
             Hello!
