@@ -17,6 +17,9 @@
 
 		<link rel="shortcut icon" href="images/JC_symbol.png">
 
+		<!-- Bootstrap Latest compiled and minified CSS -->
+		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+
 		<style type="text/css">
 
 			/* 
@@ -62,117 +65,134 @@
 	<body class="is-loading">
 
 		<!-- Wrapper -->
-			<div id="wrapper">
+		<div id="wrapper">
 
-				<!-- Info -->
+			<!-- Info -->
 
-					<section id="info">
-							<p style="background: orange">
-								<span style="font-weight: 500;">
-									UNDER CONSTRUCTION!<br>
+				<section id="info">
+						<p style="background: orange">
+							<span style="font-weight: 500;">
+								UNDER CONSTRUCTION!<br>
 
-								</span><br>
-			                    I am currently reconstructing my webpage and the server.<br>
-			                    This is my temporal webpage. 😀<br>
-			                    Please use GitHub or LinkedIn for the information.<br>
-			                    (Last Updated: 04/17/2017)
-		                    </p>								
-					</section>
+							</span><br>
+		                    I am currently reconstructing my webpage and the server.<br>
+		                    This is my temporal webpage. 😀<br>
+		                    Please use GitHub or LinkedIn for the information.<br>
+		                    (Last Updated: 04/17/2017)
+	                    </p>								
+				</section>
 
-				<!-- Main -->
-					<section id="main">
-						<header>
-							<!-- <span class="avatar"><img src="images/avatar.jpg" alt="" /></span> -->
-							<span class="avatar"><img src="images/profile.jpg" alt="" /></span>
-							<h1>JIHO CHOI</h1>
-							<p>
+			<!-- Main -->
+				<section id="main">
+					<header>
+						<!-- <span class="avatar"><img src="images/avatar.jpg" alt="" /></span> -->
+						<span class="avatar"><img src="images/profile.jpg" alt="" /></span>
+						<h1>JIHO CHOI</h1>
+						<p>
 
-			                <p>I am a senior at <span style="font-weight: bolder;">Purdue University</span> majoring in <span style="font-weight: bolder;">Computer Science</span>.<br>
-			                My focused areas of study are <b>Software Engineering</b> and Systems Programming.
+		                <p>I am a senior at <span style="font-weight: bolder;">Purdue University</span> majoring in <span style="font-weight: bolder;">Computer Science</span>.<br>
+		                My focused areas of study are <b>Software Engineering</b> and Systems Programming.
 
-							</p>
+						</p>
 
-							<ul class="actions">
-								<li><a href="resume.pdf" target="_blank" class="button">Resume</a></li>
-								<li><a id="btn_experiences" class="button">Experiences</a></li>
+						<div class="btn-group" role="group" aria-label="menu">
+							<button type="button" class="btn btn-secondary button">
+								<a href="resume.pdf" target="_blank">
+									Resume
+								</a>
+							</button>
+							<button id="btn_projects" type="button" class="btn btn-secondary button">Projects</button>
+							<button id="btn_experiences" type="button" class="btn btn-secondary button">Experiences</button>
+						</div>
+						<br>
+<!-- 
+						<ul class="actions">
+							<li><a href="resume.pdf" target="_blank" class="button">Resume</a></li>
+							<li><a id="btn_projects" class="button">Projects</a></li>
+							<li><a id="btn_experiences" class="button">Experiences</a></li>
+						</ul>
 
-								<li><a id="btn_projects" class="button">Projects</a></li>
-							</ul>
-
-							<div id="modal_experiences" class="modal">
-								<div class="modal-content">
-									<span class="close">&times;</span>
-									<p>Sorry, Coming Soon!</p>
-								</div>
+ -->
+						<div id="modal_projects" class="modal">
+							<div class="modal-content">
+								<span class="close">&times;</span>
+								<p>Sorry, Coming Soon!</p>
 							</div>
+						</div>
 
-							<div id="modal_projects" class="modal">
-								<div class="modal-content">
-									<span class="close">&times;</span>
-									<p>Sorry, Coming Soon!</p>
-								</div>
+						<div id="modal_experiences" class="modal">
+							<div class="modal-content">
+								<span class="close">&times;</span>
+								<p>Sorry, Coming Soon!</p>
 							</div>
-
-						</header>
-
-						<footer>
-							<ul class="icons">
-								<li><a href="https://www.facebook.com/jiho.choi.169" target="_blank" class="fa-facebook">Facebook</a></li>
-								<li><a href="https://github.com/jihochoi" target="_blank" class="fa-github">GitHub</a></li>
-								<li><a href="https://www.linkedin.com/in/jiho-choi-b28bb8110" target="_blank" class="fa-linkedin">LinkedIn</a></li>
+						</div>
 
 
-							</ul>
-						</footer>
-					</section>
+					</header>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="copyright">
-							<li>&copy; Jiho Choi</li><li>Designed by <a href="http://html5up.net" style="texts">HTML5 UP</a></li>
+					<footer>
+						<ul class="icons">
+							<li><a href="https://www.facebook.com/jiho.choi.169" target="_blank" class="fa-facebook">Facebook</a></li>
+							<li><a href="https://github.com/jihochoi" target="_blank" class="fa-github">GitHub</a></li>
+							<li><a href="https://www.linkedin.com/in/jiho-choi-b28bb8110" target="_blank" class="fa-linkedin">LinkedIn</a></li>
+
+
 						</ul>
 					</footer>
+				</section>
 
-			</div>
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="copyright">
+						<li>&copy; Jiho Choi</li><li>Designed by <a href="http://html5up.net" style="texts">HTML5 UP</a></li>
+					</ul>
+				</footer>
 
-		<!-- Scripts -->
-			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-				// open
-				var btnExperiences = document.getElementById("btn_experiences");
-				btnExperiences.onclick = function() {
-					modal_experiences.style.display = "block";
-				}
-				var btnProjects = document.getElementById("btn_projects");
-				btnProjects.onclick = function() {
-					modal_projects.style.display = "block";
-				}
+		</div>
 
-				// close
-				var span_exp = document.getElementsByClassName("close")[0];
-				var span_pro = document.getElementsByClassName("close")[1];
-				span_exp.onclick = function() {
-				    modal_experiences.style.display = "none";
-				}
-				span_pro.onclick = function() {
-				    modal_projects.style.display = "none";
-				}
+	<!-- Scripts -->
+		<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+		<script>
+			if ('addEventListener' in window) {
+				window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+				document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+			}
+			// open
+			var btnExperiences = document.getElementById("btn_experiences");
+			btnExperiences.onclick = function() {
+				modal_experiences.style.display = "block";
+			}
+			var btnProjects = document.getElementById("btn_projects");
+			btnProjects.onclick = function() {
+				modal_projects.style.display = "block";
+			}
 
-				window.onclick = function(event) {
-				    if (event.target == modal_experiences) {
-				        modal_experiences.style.display = "none";
-				    }
-				    if (event.target == modal_projects) {
-				        modal_projects.style.display = "none";
-				    }
-				}
+			// close
+			var span_pro = document.getElementsByClassName("close")[0];
+			var span_exp = document.getElementsByClassName("close")[1];
+			
+			span_pro.onclick = function() {
+			    modal_projects.style.display = "none";
+			}
+
+			span_exp.onclick = function() {
+			    modal_experiences.style.display = "none";
+			}
+
+			window.onclick = function(event) {
+			    if (event.target == modal_experiences) {
+			        modal_experiences.style.display = "none";
+			    }
+			    if (event.target == modal_projects) {
+			        modal_projects.style.display = "none";
+			    }
+			}
 
 
-			</script>
+		</script>
+
+		<!-- Bootstrap Latest compiled and minified JavaScript -->
+		<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
 
 	</body>
 </html>
