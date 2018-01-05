@@ -1,50 +1,72 @@
 
 
+/* for dev */
+* {
+    border-color: skyblue;
+    border-style: dashed;
+}
+
+.title {
+    
+}
+
+#name {
+    
+}
+
+#education {
+    
+}
+
+
 span {
     display: block;
 }
 
-a {
-    display: block;
-    color: black;
-
-}
-
-#name {
-
-}
 
 #occupation {
     color: skyblue;
 
 }
 
+/* Education */
 
 
+.wrapper {
+    width:800px;
+    margin: 0 auto;
+}
+
+
+#block_left {
+    float:left;
+}
+
+#block_right {
+    float:right;
+    background-color: #F5F5F5;
+    margin: 10px 20px;
+    padding: 20px;
+}
+
+
+
+a {
+    display: block;
+    color: black;
+}
 a:link    {
-    /* Applies to all unvisited links */
     text-decoration:  none;
     font-weight:      bold;
-    /*    background-color: #ddd;*/
     color:            blue;
 } 
 a:visited {
-    /* Applies to all visited links */
     text-decoration:  none;
     font-weight:      bold;
-    /*    background-color: #ddd;*/
-    /*    color:            #f0f;*/
 } 
 a:hover   {
-    /* Applies to links under the pointer */
-    /*  text-decoration:  underline;*/
     font-weight:      850;
-    /*        background-color: blue;*/
-    /*    color:            #fff;*/
 } 
 a:active  {
-    /* Applies to activated links */
-    /*  text-decoration:  underline;*/
     font-weight:      bold;
-    /*    background-color: black;*/
 } 
