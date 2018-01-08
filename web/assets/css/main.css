@@ -1,72 +1,126 @@
 
+/* https://google.github.io/styleguide/htmlcssguide.html */
+
+/*
+
+https://google.github.io/styleguide/htmlcssguide.html#ID_and_Class_Naming
+
+Instead of presentational or cryptic names, always use ID and class names that reflect the purpose of the element in question, or that are otherwise generic.
+
+Names that are specific and reflect the purpose of the element should be preferred as these are most understandable and the least likely to change.
+
+Generic names are simply a fallback for elements that have no particular or no meaning different from their siblings. They are typically needed as “helpers.”
+
+Using functional or generic names reduces the probability of unnecessary document or template changes.
+
+
+# id 
+. class
+*/
 
 /* for dev */
 * {
-    border-color: skyblue;
-    border-style: dashed;
-}
-
-.title {
-    
-}
-
-#name {
-    
-}
-
-#education {
-    
+  border-color: skyblue;
+  border-style: dashed;
 }
 
 
 span {
-    display: block;
+  display: block;
 }
 
 
+
+.title {
+
+}
+
+#name {
+
+}
+
+#education {
+
+}
 #occupation {
-    color: skyblue;
-
+  color: skyblue;
 }
+
+
+
+
+
+
+
+
+
 
 /* Education */
 
-
 .wrapper {
-    width:800px;
-    margin: 0 auto;
+  width:800px;
+  margin: 0 auto;
 }
 
 
 #block_left {
-    float:left;
+  float:left;
 }
 
 #block_right {
-    float:right;
-    background-color: #F5F5F5;
-    margin: 10px 20px;
-    padding: 20px;
+  float:right;
+  background-color: #F5F5F5;
+  margin: 10px 20px;
+  padding: 20px;
 }
+
+
+.edu-line {
+  margin-left: 2ex;
+}
+.edu-line img {
+  float: left;
+  vertical-align: middle;
+  margin-right: 1ex;
+}
+
+.edu-line p {
+  float: 
+  vertical-align: middle;
+  margin-right: 1ex;
+}
+
+
+
+.img-line {
+  margin-left: 2ex;
+}
+.img-line img {
+  vertical-align: middle;
+  margin-right: 1ex;
+  /* border: 1px solid red; */
+}
+
+
 
 
 
 a {
-    display: block;
-    color: black;
+  display: block;
+  color: black;
 }
 a:link    {
-    text-decoration:  none;
-    font-weight:      bold;
-    color:            blue;
+  text-decoration:  none;
+  font-weight:      bold;
+  color:            blue;
 } 
 a:visited {
-    text-decoration:  none;
-    font-weight:      bold;
+  text-decoration:  none;
+  font-weight:      bold;
 } 
 a:hover   {
-    font-weight:      850;
+  font-weight:      850;
 } 
 a:active  {
-    font-weight:      bold;
+  font-weight:      bold;
 } 
